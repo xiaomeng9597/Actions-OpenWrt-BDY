@@ -37,11 +37,19 @@ on:
         options:
           - main
           - openwrt-24.10
+          - v24.10.0
           - v24.10.1
           - v24.10.2
           - v24.10.3
           - v24.10.4
           - v24.10.y
+          - openwrt-25.12
+          - v25.12.0
+          - v25.12.1
+          - v25.12.2
+          - v25.12.3
+          - v25.12.4
+          - v25.12.y
           
 env:
   BOARD: ${{ inputs.BOARD || 'g68-plus'}}
