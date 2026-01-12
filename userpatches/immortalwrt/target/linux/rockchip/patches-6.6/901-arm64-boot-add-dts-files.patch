@@ -2,8 +2,7 @@ diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchi
 
 --- a/arch/arm64/boot/dts/rockchip/Makefile
 +++ b/arch/arm64/boot/dts/rockchip/Makefile
-@@ -96,6 +96,9 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-nanopi-r3s.dtb
- dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-armsom-sige3.dtb
+@@ -90,6 +90,9 @@
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-bpi-r2-pro.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-evb1-v10.dtb
 +dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-nsy-g16-plus.dtb
@@ -11,4 +10,3 @@ diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchi
 +dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-bdy-g18-pro.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-fastrhino-r66s.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-fastrhino-r68s.dtb
- dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-mmbox-anas3035.dtb
